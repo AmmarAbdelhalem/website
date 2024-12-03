@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 1rem;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navbar-menu a:hover {
+    color: #f0a500;
+  }
+
+  /* Style for the Login button */
+.btn-login {
+    padding: 0.5rem 1rem;
+    background-color: #f0a500;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn-login:hover {
+    background-color: #d48c00;
+    transform: scale(1.05);
+  }
+
+/* Onboarding Section */
+.onboarding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #333, #555);
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  .onboarding-content {
+    max-width: 600px;
+  }
+  
+  .onboarding h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .onboarding p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-get-started {
+    padding: 0.7rem 1.5rem;
+    background-color: #f0a500;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .btn-get-started:hover {
+    background-color: #d48c00;
+    transform: scale(1.05);
+  }
+  
